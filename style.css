@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-box {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #262626;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff4757;
+}
+
+header p {
+    color: #aaa;
+    margin: 5px 0 0 0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #ff6b81;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #3a3a3a;
+    padding-bottom: 5px;
+}
+
+.story-text p {
+    line-height: 1.6;
+    color: #ddd;
+    text-indent: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.story-text strong {
+    color: #ff6b81;
+}
+
+/* Блок для двух главных игроков в ряд */
+.top-players {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.founder-box {
+    background-color: #1f1f1f;
+    padding: 12px 15px;
+    border-left: 4px solid #5352ed; /* Синий для создателя */
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.95em;
+}
+
+.founder-box.veteran {
+    border-left: 4px solid #ff4757; /* Красный для Флина */
+}
+
+.list-title {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.list-title.left-title {
+    color: #ff4757; /* Выделение для ушедших */
+    margin-top: 25px;
+}
+
+.players-list {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.players-list li {
+    margin-bottom: 6px;
+    color: #ddd;
+}
+
+.players-list.left-list li {
+    color: #888; /* Серый цвет для ушедших */
+    text-decoration: line-through; /* Зачеркнутый стиль по желанию (можно убрать) */
+}
+
+/* Настройки картинок */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #444;
+}
